@@ -27,10 +27,6 @@ if (localEmailName) {
   setEmailNameInnerHtml(localEmailName);
 }
 
-if (gradeElement) {
-  setGradeNameInnerHtml(gradeElement);
-}
-
 userNameElement.onclick = () => {
   const userName = prompt('이름을 입력해 주세요.');
   localStorage.setItem('userName', userName);
